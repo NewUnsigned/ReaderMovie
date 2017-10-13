@@ -8,7 +8,7 @@
 	},
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
-	"appid": "touristappid",
+	"appid": "wx1672b9e81f2b6575",
 	"projectname": "ReaderMovie",
 	"condition": {
 		"weapp": {
