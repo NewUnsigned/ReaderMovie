@@ -4,7 +4,7 @@
     "pages/posts/posts",
     "pages/posts/post-detail/post-detail"
   ],
-  "window":{
-    "navigationBarBackgroundColor" : "#b3d4db"
+  "window":{   
+    "navigationBarBackgroundColor" : "#405f80"
   }
 }

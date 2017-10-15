@@ -1,2 +1,19 @@
-<!--pages/posts/post-detail/post-detail.wxml-->
-<text>pages/posts/post-detail/post-detail.wxml</text>
+<view class='container'>
+  <image class='head-image' src='{{postData.headImgSrc}}'></image>
+  <image class='audio' src='/images/music/music-start.png'></image>
+  <view class='detail-user-info'>
+    <image class='detail-image' src='{{postData.avatar}}'></image>
+    <text calss='detail-user-name'>{{postData.author}}</text>
+    <text class='detail-user-at'>发表于</text>
+    <text class='detail-user-time'>{{postData.dateTime}}</text>
+  </view>
+  <text class='detail-title'>{{postData.title}}</text>
+  <view class='detail-share'>
+    <view class='circle-image'>
+      <image class='detail-colletion-image' src='/images/icon/collection.png'></image>
+      <image class='detial-share-image' src='/images/icon/share.png'></image>
+    </view>
+    <view class='detail-share-line'></view>
+  </view>
+  <text class='content'>{{postData.detail}}</text>
+</view>

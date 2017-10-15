@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,11 +16,11 @@
   font-weight: bold;
 }
 
-.moto{
+.moto {
   font-size: 22rpx;
   font-weight: bold;
   line-height: 80rpx;
-  color: #405f80
+  color: #405f80;
 }
 
 .moto-container {
@@ -29,10 +29,10 @@
   width: 200rpx;
   height: 80rpx;
   border-radius: 5px;
-  text-align: center
+  text-align: center;
 }
 
 page {
   height: 100%;
-  background-color: #b3d4db
+  background-color: #b3d4db;
 }
